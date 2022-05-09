@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container {
+        @apply relative w-full px-6 mx-auto max-w-7xl;
+    }
+    .section {
+        @apply relative py-20;
+    }
+    .image-container {
+        @apply relative;
+      }
+    .image-container .image {
+        @apply relative object-cover w-full h-full;
+    }
+}
