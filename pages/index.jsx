@@ -6,15 +6,8 @@ import LogoMonogramaIcon from '../assets/logo-monograma.svg'
 import LogoPetskyIcon from '../assets/logo-petsky.svg'
 import LogoStackIcon from '../assets/logo-stack.svg'
 import LogoUppercutIcon from '../assets/logo-uppercut.svg'
-import Video01Image from '../assets/video-01.jpg'
-import Video02Image from '../assets/video-02.jpg'
-import Avatar01 from '../assets/avatar-01.jpg'
-import Avatar02 from '../assets/avatar-02.jpg'
-import Avatar03 from '../assets/avatar-03.jpg'
-import TestimonialCard from '../components/testimonial-card'
-import BlogPost01Image from '../assets/blog-post-01.jpg'
-import BlogPost02Image from '../assets/blog-post-02.jpg'
 import BlogPostCard from '../components/blog-post-card'
+import TestimonialCard from '../components/testimonial-card'
 
 export default function Home() {
   return (
@@ -118,7 +111,7 @@ export default function Home() {
             </div>
             <div className='relative z-10 text-white bg-gray-900 p-14 rounded-xl top-40'>
               <div className='text-3xl font-bold text-center'>
-                The world's leading technology <br /> companies use Devkit.
+                The world`&apos;s leading technology <br /> companies use Devkit.
               </div>
               <ul className='flex items-center justify-center pt-10 gap-x-4'>
                 <li>
@@ -156,7 +149,7 @@ export default function Home() {
               <div className='relative w-[600px] h-[400px]'>
                 <Image
                   className='rounded-r-xl'
-                  src={Video01Image}
+                  src='/video-01.jpg'
                   alt='video image'
                   layout='fill'
                   objectFit='cover'
@@ -165,7 +158,7 @@ export default function Home() {
             </div>
             <div className='flex flex-col justify-center text-white'>
               <div className='text-5xl font-bold'>
-                We don't just <br /> talk the talk, <br /> we walk the walk.
+                We don`&apos;t just <br /> talk the talk, <br /> we walk the walk.
               </div>
               <div className='pt-4 text-lg font-medium text-gray-100'>
                 Let’s talk about some of the more important technical <br /> details on a video
@@ -199,7 +192,7 @@ export default function Home() {
               <div className='relative w-[600px] h-[400px]'>
                 <Image
                   className='rounded-xl'
-                  src={Video02Image}
+                  src='/video-02.jpg'
                   alt='video image'
                   layout='fill'
                   objectFit='cover'
@@ -223,17 +216,17 @@ export default function Home() {
           </div>
           <div className='grid max-w-2xl grid-cols-1 pt-20 mx-auto gap-y-8'>
             <TestimonialCard
-              avatar={Avatar01}
+              avatar='/avatar-01.jpg'
               content='“Couldn’t have done it without the help of the Devkit team.”'
               description='Jonathan Wilson, Bungalow'
             />
             <TestimonialCard
-              avatar={Avatar02}
+              avatar='/avatar-02.jpg'
               content='“The Devkit team were there to help out at every step.”'
               description='Helen Thompson, Monograma'
             />
             <TestimonialCard
-              avatar={Avatar03}
+              avatar='/avatar-03.jpg'
               content='“I found their developer support to be best-in-class.”'
               description='Robert Smith, Uppercut'
             />
@@ -251,14 +244,14 @@ export default function Home() {
           </div>
           <div className='container grid grid-cols-2 pt-20 gap-x-8'>
             <BlogPostCard
-              image={BlogPost01Image}
+              image='/blog-post-01.jpg'
               tag='Business'
               tagColor='bg-yellow-300'
               date='March 27, 2020'
               title={`Tips to build meaningful business relationships`}
             />
             <BlogPostCard
-              image={BlogPost02Image}
+              image='/blog-post-02.jpg'
               tag='Growth'
               tagColor='bg-green-200'
               date='March 27, 2020'

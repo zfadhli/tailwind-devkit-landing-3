@@ -7,9 +7,11 @@ export default function BlogPostCard({ image, tag, date, title, tagColor }) {
         <Image
           className='transition duration-500 transform rounded-xl group-hover:scale-110'
           src={image}
-          alt='video image'
+          alt='blog post image'
           layout='fill'
           objectFit='cover'
+          placeholder='blur'
+          blurDataURL={image}
         />
       </div>
       <div className='absolute bottom-0 z-10 p-8'>
@@ -19,7 +21,7 @@ export default function BlogPostCard({ image, tag, date, title, tagColor }) {
           >
             {tag}
           </button>
-          <span className='text-sm'>{tag}</span>
+          <span className='text-sm'>{date}</span>
         </div>
         <div className='pt-2 text-xl font-semibold'>{title}</div>
       </div>

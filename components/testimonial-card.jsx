@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 export default function TestimonialCard({ avatar, content, description }) {
+  console.log({ avatar })
   return (
     <>
       <div className='flex items-center justify-center p-20 bg-green-100 rounded-xl gap-x-8'>
@@ -11,6 +12,8 @@ export default function TestimonialCard({ avatar, content, description }) {
             alt='video image'
             layout='fill'
             objectFit='cover'
+            placeholder='blur'
+            blurDataURL={avatar}
           />
         </div>
         <div>
