@@ -1,6 +1,6 @@
-# Tailwind Unsplash Gallery
+# Tailwind Devkit Landing 3
 
-This is a next.js application for unsplash gallery. Deployed on [https://tailwind-unsplash-gallery.vercel.app/](https://tailwind-unsplash-gallery.vercel.app/)
+This is a clone of [Devkit Landing 3](https://devkit.webflow.io/landing/landing-3). Build with Next.js and Tailwindcss. Deployed on [http://tailwind-devkit-landing-3.vercel.app/](http://tailwind-devkit-landing-3.vercel.app/)
 
 ## Features
 
