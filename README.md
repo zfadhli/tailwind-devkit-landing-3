@@ -5,15 +5,13 @@ This is a clone of [Devkit Landing 3](https://devkit.webflow.io/landing/landing-
 ## Features
 
 - Tailwindcss for styling
-- SWR for data fetching
-- Infinite loading image
 - Image optimization with next/image
-- Mobile responsive
+- Mobile responsive ( todo )
 
 ## Getting Started
 
 ```bash
-pnpx degit zfadhli/tailwind-unsplash-gallery
+pnpx degit zfadhli/tailwind-devkit-landing-3
 pnpm i
 pnpm run dev
 ```
